@@ -28,12 +28,10 @@ const StyledContainer = styled.div`
 	max-width: 350px;
 	overflow-y: scroll;
 	border-right: 1px solid whitesmoke;
-
 	/* Hide scrollbar for Chrome, Safari and Opera */
 	::-webkit-scrollbar {
 		display: none;
 	}
-
 	/* Hide scrollbar for IE, Edge and Firefox */
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
@@ -146,12 +144,7 @@ const Sidebar = () => {
 				</Tooltip>
 
 				<div>
-					<IconButton>
-						<ChatIcon />
-					</IconButton>
-					<IconButton>
-						<MoreVerticalIcon />
-					</IconButton>
+					
 					<IconButton onClick={logout}>
 						<LogoutIcon />
 					</IconButton>
@@ -213,4 +206,4 @@ const Sidebar = () => {
 	)
 }
 
-export default Sidebar
+export default Sidebar;

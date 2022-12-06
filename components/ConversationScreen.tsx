@@ -200,14 +200,7 @@ const ConversationScreen = ({
 					)}
 				</StyledHeaderInfo>
 
-				<StyledHeaderIcons>
-					<IconButton>
-						<AttachFileIcon />
-					</IconButton>
-					<IconButton>
-						<MoreVertIcon />
-					</IconButton>
-				</StyledHeaderIcons>
+				
 			</StyledRecipientHeader>
 
 			<StyledMessageContainer>
@@ -227,9 +220,7 @@ const ConversationScreen = ({
 				<IconButton onClick={sendMessageOnClick} disabled={!newMessage}>
 					<SendIcon />
 				</IconButton>
-				<IconButton>
-					<MicIcon />
-				</IconButton>
+				
 			</StyledInputContainer>
 		</>
 	)
